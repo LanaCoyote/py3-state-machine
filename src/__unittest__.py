@@ -241,7 +241,7 @@ class _BindingTest( unittest.TestCase ) :
         self.assertEqual( mymachine.function(), 3 );
         
 # CollatzTest
-# Tests the real world applications of the state machine by using it to build collatz sequences
+# Tests using state machines to build a collatz sequence
 class _CollatzTest( unittest.TestCase ) :
     
     def setUp( self ) :
