@@ -14,7 +14,8 @@ Currently the library supports:
 
 Basic example:
 
-<pre>from state_machine import *
+```python
+from state_machine import *
 
 # This is a state class
 class SaySomethingState( State ) :
@@ -48,4 +49,4 @@ MyMachine.sayit()
 # Entering new state...
 # Goodbye, world!
 # Exiting state...
-</pre>
+```
